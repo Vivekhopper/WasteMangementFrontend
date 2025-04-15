@@ -7,7 +7,7 @@ function LiveTracking() {
         <h2 className="text-xl font-semibold text-gray-800 text-center mb-4">Live Prediction Stream</h2>
         <div className="aspect-w-16 aspect-h-9 rounded overflow-hidden border border-gray-300">
           <img
-            src="http://localhost:8000/video"
+            src="https://wastemanagementbackend-xt2d.onrender.com/video"
             alt="Live Prediction Stream"
             className="w-full h-full object-cover"
           />
