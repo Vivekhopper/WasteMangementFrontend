@@ -29,7 +29,7 @@ function ImageUploader() {
     formData.append("file", file);
 
     try {
-      const res = await axios.post("http://localhost:8000/predict/", formData, {
+      const res = await axios.post("https://wastemanagementbackend-xt2d.onrender.com/predict/", formData, {
         headers: { "Content-Type": "multipart/form-data" },
       });
       setPrediction(res.data.label);
